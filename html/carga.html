@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+     <!-- favicon -->
+     <link rel="icon" href="../favicon/favicon.ico">
+     <!-- css -->
+     <link rel="stylesheet" href="../css/style.css">
+    <title>Carga de Propiedades</title>
+</head>
+<body>
+    <!-- para que vaya arriba -->
+    <p id="top"></p>
+
+    <header>
+            <div>
+                <a href="../index.html"><img src="../images/LOGO.jpg" alt="Logo" id="logoInmo"></a>
+            </div>
+
+            <!-- Barra de Navegación -->
+            <nav class="barraNav">
+                <ul>
+                    <li class="menuNav">
+                        <a href="../index.html">HOME</a>
+                    </li>
+
+                    <li class="menuNav">
+                        <a href="../html/propiedades.html">PROPIEDADES</a>
+                        <ul>
+                            <li><a href="../html/propiedades.html#venta">Venta</a></li>
+                            <li><a href="../html/propiedades.html#alquiler">Alquiler</a></li>
+                          </ul>
+                    </li>
+
+                    <li class="menuNav">
+                        <a href="../html/contacto.html">CONTÁCTENOS</a>
+                    </li>
+
+                    <li class="menuNav">
+                        <a href="../html/acerca.html">NOSOTROS</a>
+                    </li>
+
+                    <li class="menuNav">
+                        <a href="../html/ingrese.html">INGRESE</a>
+                    </li>
+                </ul>
+
+                <input class="search" type="text" placeholder="Búsqueda..">
+
+            </nav>
+    </header>
+
+    
+    <main>
+        <!-- Formulario de Carga de Propiedades -->
+        <div class="boxForm">
+            <form action="carga.html" method="get" class="formCarga">
+                    <h2 class="textBox">Cargue la Propiedad</h2>
+                    <input class="imputForm" type="file" placeholder="Fotografía" name="picture" multiple accept=".jpg"><br>
+                    <input class="imputForm" type="number" placeholder="Precio" name="value" id="value" required><br>
+                    <input class="imputForm" type="number" placeholder="Dormitorios" name="bedroom" id="bedroom" required><br>
+                    <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
+                    <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
+                    <input class="imputForm" type="text" placeholder="Habitación" name="room" id="room1" required><br>
+                    <div class="contBot">
+                        <button class="botBot" type="reset">Limpiar</button>
+                        <button class="botBot" type="submit">Cargar</button>
+                    </div>
+                    
+            </form>
+        </div>
+       
+    </main>
+
+    <footer id="footer">
+
+        <a href="#top" id="arriba"><i class="fa-solid fa-circle-arrow-up fa-3x">Top</i></a><br>
+
+        <div class="social">
+            <a href="tel:26146833"  target="_blank"><i class="fa-solid fa-phone fa-xl"></i></a>
+            <a href="mailto:juanpablo@meallainmo.com.ar"  target="_blank"><i class="fa-solid fa-envelope fa-xl"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=0261155000000"  target="_blank"><i class="fa-brands fa-whatsapp fa-xl"></i></a>
+        </div>
+        
+        <p class="reservados"> © 2022 - Mealla Inmobiliaria (Todos los derechos reservados)</p>
+
+    </footer>
+    
+</body>
+</html>

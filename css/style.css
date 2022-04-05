@@ -1,0 +1,325 @@
+/* Reseteo del Documento */
+/* +++++++++++ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+/* +++++++++++++++++> */
+/* HEADER */
+/* +++++++++++ */
+
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+
+#logoInmo {
+    justify-content: end;
+    height: 240px;
+    width: 350px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+}
+
+.barraNav {
+    display: flex;
+
+    text-decoration: none;
+    background-color: #F9F9ED;
+    padding: 10px;
+    margin: 10px;
+    
+    width: 100%;
+    z-index: 100;
+
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: coral;
+}
+
+.search {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    height: 30px;
+    width: 180px;
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.menuNav {
+    display: inline-block;
+    padding: 10px;
+}
+
+header nav ul li {
+    position: relative;
+}
+
+header nav ul li:hover > ul {
+    display: flex;
+}
+
+header nav ul li ul {
+    position: absolute;
+    left: 1rem;
+    display: none;
+    flex-direction: column;
+    padding: 1rem;
+    height: 4.5rem;
+    width: 7rem;
+    background-color: rgb(179, 183, 221);
+    border-radius: 10px;
+}
+
+
+/* Media queries */
+/* +++++++++++ */
+
+
+
+/* FIN HEADER */
+/* +++++++++++ */
+/* +++++++++++++++++> */
+
+
+
+
+/* +++++++++++++++++> */
+/* MAIN */
+/* +++++++++++ */
+
+
+/* propiedades */
+/* +++++++++++ */
+
+.tituloProp {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.contProp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.propiedad {
+    height: 550px;
+    width: 650px;
+    margin-bottom: 30px;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}
+
+
+/* nosotros */
+/* +++++++++++ */
+
+.boxUs {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-columns: repeat(2, 50%);
+    width: 95%;
+    padding: 5rem;
+}
+
+.boxUs .textoAcerca h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.textoCorr {
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+.ccpim {
+    text-decoration: none;
+    color: crimson;
+}
+
+.corredor {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin: 0 50px 30px 0;
+}
+
+.mapa {
+    display: flex;
+    justify-content: center;
+}
+
+.textoAcerca {
+    border: #969a97;
+}
+
+
+/* ingrese */
+/* +++++++++++ */
+
+.boxForm {
+    display: flex;
+}
+
+.formIngreso {
+    height: fit-content;
+    width: fit-content; 
+    padding: 20px;
+    margin: 40px;
+    border: double brown;
+    position: relative;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.textBox {
+    text-align: center;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.imputForm {
+    height: 2.5rem;
+    padding: 1rem;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+.contBot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botBot {
+    border: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+
+/* contacto */
+/* +++++++++++ */
+
+.formContacto {
+    height: fit-content;
+    width: fit-content; 
+    padding: 20px;
+    margin: 40px;
+    border: double brown;
+    position: relative;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* carga */
+/* +++++++++++ */
+
+.formCarga {
+    height: fit-content;
+    width: fit-content; 
+    padding: 20px;
+    margin: 40px;
+    border: double brown;
+    position: relative;
+    left: 40rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Media queries */
+/* +++++++++++ */
+
+
+
+/* FIN MAIN */
+/* +++++++++++ */
+/* +++++++++++++++++> */
+
+
+
+/* +++++++++++++++++> */
+/* FOOTER */
+/* +++++++++++ */
+
+
+footer {
+    border-top: double grey;
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom,#F9F9ED, white);
+}
+
+.social {
+    text-align: right;
+    padding: 20px;
+    margin-right: 5px;
+}
+
+.fa-phone {
+    color: #969a97;
+    padding-right: 10px;
+}
+
+.fa-envelope {
+    color: #969a97;
+}
+
+.fa-whatsapp {
+    color: #969a97;
+    padding-left: 10px;
+}
+
+.reservados {
+    text-align: center;
+    margin: 20px;
+}
+
+#arriba {
+    text-decoration: none;
+    color: crimson;
+    margin-left: 20px;
+}
+
+
+/* Media queries */
+/* +++++++++++ */
+
+
+
+/* FIN FOOTER */
+/* +++++++++++ */
+/* +++++++++++++++++> */
