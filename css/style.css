@@ -10,143 +10,6 @@
 }
 
 
-/* ------- */
-
-/* ESTO ES PARA EL MENU HAMBURGESA Q ESTA EN EL MAIN DE LA MISMA MANERA */
-
-  header .header__burguerMenu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 2.5rem;
-    height: 2.5rem;
-    font-size: 2rem;
-    background-color: white;
-    border: none;
-    color: grey;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-    cursor: pointer;
-    transition: box-shadow 0.5s ease-in;
-  }
-  
-  /* PARA Q NO SE VEA EL CHECKBOX */
-  input#menu {
-    display: none;
-  }
-  
-  header button.header__burguerMenu:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* ES PARA Q LOS ELEMENTOS HERMANOS ESTEN DENTRO DEL MISMO CONTENEDOR Y LABUREN JUNTOS */
-  /* si el elemento tal esta checkeado en el header menu dale a lo q dice adentro */
-  /* checked es cliqueado, sino esta chequeado el de abajo dice display none */
-  input#menu:checked ~ .header__menu {
-    display: block;
-  }
-  
-  /* ESTE ES EL MENU HAMBURGESA DESPLEGADO EN TODA LA PANTALLA */
-  header .header__menu {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; 
-    height: 100%;
-    background-color: white;
-  }
-  
-  header .header__menu .header__closeMenu {
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-    font-size: 1.5rem;
-    
-  }
-  
-  header .header__menu ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  
-  header .header__menu ul li {
-    text-transform: uppercase;
-    font-weight: 600;
-    border-radius: 5px;
-    padding: 0.5rem;
-  }
-  
-  header .header__menu ul li:hover {
-    background-color: rgb(250, 250, 250);
-  }
-  
-  
-  header #header__menu--itemGallery ul {
-    flex-direction: column;
-    border-radius: 5px;
-  }
-  
-  header #header__menu--itemGallery ul li a {
-    color: rgb(160, 160, 160);
-    text-transform: capitalize;
-    font-weight: 400;
-  }
-  
-  /* Media queries */
-  
-  @media (min-width: 429px) {
-  
-    header .header__burguerMenu {
-      display: none;
-    }
-  
-    header .header__menu .header__closeMenu {
-      display: none;
-    }
-    
-    header .header__menu {
-      display: initial;
-      position: inherit;
-    }
-  
-    header .header__menu ul {
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-  
-    header #header__menu--itemGallery {
-      position: relative;
-  
-    }  
-  
-    /* esto es para que el menu tenga un desplegable cuando haga hover */
-    /* el elemento padre hace el efecto y tiene q tener el ul como elemento hijo */
-    header #header__menu--itemGallery:hover > ul {
-      display: flex;
-    }
-  
-    /* esto es para que el menu tenga un desplegable cuando haga hover */
-    /* el elemento padre hace el efecto y tiene q tener el ul como elemento hijo */
-    header #header__menu--itemGallery ul {
-      display: none;
-      position: absolute;
-      left: 0;
-      padding: 0.5rem;
-      height: 7rem;
-      background-color: rgb(250, 250, 250);
-      border-radius: 5px;
-    }
-  
-  }
-
-
-
-/* ------- */
 
 /* +++++++++++++++++> */
 /* HEADER */
@@ -170,21 +33,15 @@ header {
 
 .barraNav {
     display: flex;
-
     text-decoration: none;
     background-color: #F9F9ED;
     padding: 10px;
-    margin: 10px;
-    
+    margin: 10px; 
     width: 100%;
     z-index: 100;
-
-    
     justify-content: center;
     align-items: center;
-
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
-
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -229,9 +86,14 @@ header nav ul li ul {
     padding: 1rem;
     height: 4.5rem;
     width: 7rem;
-    background-color: rgb(179, 183, 221);
+    background-color: #F9F9ED;
     border-radius: 10px;
 }
+
+/* Menu Hamburgesa */
+
+#hamNav label, #hamburgesa { display: none; }
+
 
 
 /* Media queries */
@@ -239,41 +101,125 @@ header nav ul li ul {
 
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
-@media (max-width: 428px) {
+@media (min-width: 428px) {
     
     #logoInmo {
         height: 150px;
-        width: 220px;
+        width: 200px;
     }
 
     .barraNav {
         height: 140px;
-        width: 11.6rem;
+        width: 12rem;
+    }
+
+    header nav ul li {
+        position: relative;
+    }
+    
+    header nav ul li:hover > ul {
+        display: flex;
+    }
+
+   /*  Menu Hamburgesa */
+
+    #itemBarra {
+        background-color: #F9F9ED;
+        margin: auto;
+    }
+
+    #itemBarra a {
+        box-sizing: border-box;
+        display: block;
+        background-color: #F9F9ED;
+    }
+
+    #hamNav label { 
+        display: inline-block; 
+        background-color: #F9F9ED;
+        font-size: 2.5rem;
+    }
+
+    #itemBarra { display: none; }
+    #hamNav input:checked ~ #itemBarra { display: block; }
+
+}
+
+/* utilice el tamaño de un iphone en Landscape y un ipad en Portrait para el width aquí */
+@media (min-width: 810px) {
+
+    header {
+        display: flex;
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    
+    #logoInmo {
+        justify-content: end;
+        height: 240px;
+        width: 350px;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .barraNav {
+        height: 240px;
+        display: flex;
+        text-decoration: none;
+        background-color: #F9F9ED;
+        padding: 10px;
+        margin: 10px; 
+        width: 100%;
+        z-index: 100;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    header nav ul li ul {
+        position: absolute;
+        left: 1rem;
+        display: none;
+        flex-direction: column;
+        padding: 1rem;
+        height: 4.5rem;
+        width: 7rem; 
+        background-color: #F9F9ED;
+        border-radius: 10px; 
+        z-index: 700;
+    }
+
+    header nav ul li {
+        position: relative;
+    }
+    
+    header nav ul li:hover > ul {
+        display: flex;
+    }
+
+
+    /* menu hamburgesa */
+
+    #hamNav label, #hamburgesa { display: none; }
+
+    #itemBarra {
+        display: inline-block;
     }
 
 }
 
-/* utilice el tamaño de un ipad en Portrait y un iphone en Landscape para el width aquí */
-@media (max-width: 926px) {
-
-    
-  
-}
-
 
 /* utilice el tamaño de un ipad en Landscape para el width aquí */
-@media (max-width: 1080px) {
+/* @media (min-width: 1080px) {
 
-    
-  
 }
 
 
-@media (max-width: 1300px) {
+@media (min-width: 1300px) {
 
-    
-  
-}
+} */
 
 
 
@@ -494,14 +440,12 @@ header nav ul li ul {
         display: flex;
         display: inline-block;
         width: 100%;
-        
     }
 
 
     .corredor{
         width: 300px;
         height: 300px;
-    
     }
 
     .boxUs {
@@ -510,7 +454,7 @@ header nav ul li ul {
 
     
     .textoAcerca {
-      margin: 10px 0 10px 0;
+        margin: 10px 0 10px 0;
     }
   
 
