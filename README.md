@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="" alt="Logo de coder"/>
+  <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" alt="Logo de coder"/>
 </p>
 
-# **Curso Coderhouse - Desarrollo Web"**
+# **Curso Coderhouse - "Desarrollo Web"**
 
 Tema: sitio web de Inmobiliaria. <br>
 
@@ -11,12 +11,6 @@ Tema: sitio web de Inmobiliaria. <br>
 ## **Integrante:**  
  - Juan Pablo Mealla [@GitHub](https://github.com/Random003):
    
-
-<br>
-<br>
-<br>
-
- Muchas gracias.
 
 <br>
 <br>
