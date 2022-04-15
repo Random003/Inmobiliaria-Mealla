@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" width="400" 
-     height="500" alt="Logo de coder"/>
+  <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" alt="Logo de coder"/>
 </p>
 
 # **Curso Coderhouse - "Desarrollo Web"**
