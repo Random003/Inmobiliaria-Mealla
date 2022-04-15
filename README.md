@@ -4,12 +4,18 @@
 
 # **Curso Coderhouse - "Desarrollo Web"**
 
-Tema: sitio web de Inmobiliaria. <br>
+Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. Comisión 31525.-
+
+<br>
+<br>
 
 ---
 
 ## **Integrante:**  
- - Juan Pablo Mealla [@GitHub](https://github.com/Random003):
+ - Juan Pablo Mealla [@GitHub](https://github.com/Random003)
+
+<br>
+<br>
 
 
 ---
