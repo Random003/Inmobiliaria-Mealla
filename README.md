@@ -10,6 +10,13 @@ Tema: sitio web de Inmobiliaria. <br>
 
 ## **Integrante:**  
  - Juan Pablo Mealla [@GitHub](https://github.com/Random003):
+
+
+---
+
+## **GitHub Pages:**
+
+- Para poder ver desde GitHub Pages el sitio web por favor dirigirse hacia esta <a href="https://random003.github.io/Inmobiliaria-Mealla/">dirección</a>.
    
 
 <br>
