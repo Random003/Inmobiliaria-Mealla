@@ -1,0 +1,29 @@
+/* PRUEBA - NO LINKEADO */
+
+/* se escribe aca y lo manda a pruebacss.css */
+
+/* -- */
+/* variables en sas */
+
+$colorPrimario: #F9F9ED;
+
+main {
+    section {
+        background-color: red;
+        article {
+            background-color: $colorPrimario;
+            a {
+                &:hover {
+                    background-color: $colorPrimario;
+                }
+            }
+        }
+    }
+}
+
+/* -- */
+/* Header */
+
+/* modulizacion - partials */
+
+@import"header"

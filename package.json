@@ -1,0 +1,26 @@
+{
+  "name": "inmobiliaria-mealla",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">   <img src=\"https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png\" alt=\"Logo de coder\"/> </p>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Random003/Inmobiliaria-Mealla.git"
+  },
+  "author": "Juan Pablo Mealla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Random003/Inmobiliaria-Mealla/issues"
+  },
+  "homepage": "https://github.com/Random003/Inmobiliaria-Mealla#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

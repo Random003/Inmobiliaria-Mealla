@@ -1,0 +1,22 @@
+/* se escribe aca y lo manda a pruebacss.css */
+/* -- */
+/* variables en sas */
+main section {
+  background-color: red; }
+  main section article {
+    background-color: #F9F9ED; }
+    main section article a:hover {
+      background-color: #F9F9ED; }
+
+/* -- */
+/* Header */
+/* modulizacion - partials */
+/* modulizacion - partials */
+header {
+  position: sticky;
+  width: 100%;
+  top: 0; }
+  header nav {
+    display: flex; }
+    header nav ul {
+      display: flex; }

@@ -1,0 +1,13 @@
+/* modulizacion - partials */
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    nav {
+        display: flex;
+        ul {
+            display: flex;
+        }
+    }
+}

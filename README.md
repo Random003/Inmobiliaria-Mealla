@@ -23,6 +23,24 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 ## **GitHub Pages:**
 
 - Para poder ver desde GitHub Pages el sitio web por favor dirigirse hacia esta <a href="https://random003.github.io/Inmobiliaria-Mealla/">dirección</a>.
+
+
+---
+
+## **Paquetes instalados:**
+
+- Node
+- Node-sass
+- Nodemon
+
+
+---
+
+## **En terminal realizar:**
+
+Para iniciar : "npm run watch-css"
+
+Para dejar de correr: "Control + C"
    
 
 <br>
