@@ -417,6 +417,8 @@ header nav ul li ul {
     flex-direction: column;
 }
 
+/* main */
+/* +++++++++++ */
 
 /* Bootstrap carrusel */
 /* +++++++++++ */
@@ -432,6 +434,9 @@ header nav ul li ul {
     transition: 0.3s ease-in-out left;
 }
 
+.caruMain {
+    z-index: -1;
+}
 
 
 /* Media queries */

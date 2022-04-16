@@ -29,9 +29,9 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 
 ## **Paquetes instalados:**
 
-- Node
-- Node-sass
-- Nodemon
+- <a href="https://nodejs.org/en/">Node js</a>.
+- <a href="https://www.npmjs.com/package/node-sass">Node-sass</a>.
+- <a href="https://www.npmjs.com/package/nodemon">Nodemon</a>.
 
 
 ---
