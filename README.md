@@ -12,17 +12,19 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 ---
 
 ## **Integrante:**  
- - Juan Pablo Mealla [@GitHub](https://github.com/Random003)
+ - Juan Pablo Mealla [@GitHub](https://github.com/Random003).
 
 <br>
 <br>
-
 
 ---
 
 ## **GitHub Pages:**
 
 - Para poder ver desde GitHub Pages el sitio web por favor dirigirse hacia esta <a href="https://random003.github.io/Inmobiliaria-Mealla/">dirección</a>.
+
+<br>
+<br>
 
 
 ---
@@ -33,6 +35,8 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 - <a href="https://www.npmjs.com/package/node-sass">Node-sass</a>.
 - <a href="https://www.npmjs.com/package/nodemon">Nodemon</a>.
 
+<br>
+<br>
 
 ---
 
