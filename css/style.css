@@ -157,13 +157,13 @@ header nav ul li ul {
     
     #logoInmo {
         justify-content: end;
-        height: 110px;
-        width: 140px;
+        height: 120px;
+        width: 150px;
         box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
     }
 
     .barraNav {
-        height: 100px;
+        height: 110px;
         display: flex;
         text-decoration: none;
         background-color: #de8f61;
@@ -406,6 +406,7 @@ header nav ul li ul {
     padding: 10px;
     text-align: center;
     text-transform: capitalize;
+    text-decoration: none;
 }
 
 /* Bootstrap carrusel */
