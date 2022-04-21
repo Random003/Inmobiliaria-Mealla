@@ -18,7 +18,6 @@
 
 header {
     display: flex;
-    position: sticky;
     top: 0;
     left: 0;
 }
@@ -34,6 +33,7 @@ header {
 .barraNav {
     display: flex;
     text-decoration: none;
+    /* background-color: #F9F9ED; */
     background-color: #F9F9ED;
     padding: 10px;
     margin: 10px; 
@@ -95,7 +95,6 @@ header nav ul li ul {
 #hamNav label, #hamburgesa { display: none; }
 
 
-
 /* Media queries */
 /* +++++++++++ */
 
@@ -104,13 +103,13 @@ header nav ul li ul {
 @media (min-width: 428px) {
     
     #logoInmo {
-        height: 150px;
-        width: 200px;
+        height: 70px;
+        width: 100px;
     }
 
     .barraNav {
-        height: 140px;
-        width: 12rem;
+        height: 60px;
+        width: 100%;
     }
 
     header nav ul li {
@@ -135,7 +134,7 @@ header nav ul li ul {
     }
 
     #hamNav label { 
-        display: inline-block; 
+        display: inline-block;
         background-color: #F9F9ED;
         font-size: 2.5rem;
     }
@@ -150,20 +149,19 @@ header nav ul li ul {
 
     header {
         display: flex;
-        position: sticky;
         top: 0;
         left: 0;
     }
     
     #logoInmo {
         justify-content: end;
-        height: 240px;
-        width: 350px;
+        height: 110px;
+        width: 140px;
         box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
     }
 
     .barraNav {
-        height: 240px;
+        height: 100px;
         display: flex;
         text-decoration: none;
         background-color: #F9F9ED;
@@ -235,7 +233,8 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
-/* propiedades */
+
+/* Propiedades */
 /* +++++++++++ */
 
 .tituloProp {
@@ -288,7 +287,7 @@ header nav ul li ul {
 }
 
 
-/* nosotros */
+/* Nosotros */
 /* +++++++++++ */
 
 .boxUs {
@@ -322,7 +321,6 @@ header nav ul li ul {
     justify-content: center;
     padding-bottom: 20px;
     margin: 0 50px 30px 0;
-    
 }
 
 .mapa {
@@ -335,7 +333,7 @@ header nav ul li ul {
 }
 
 
-/* ingrese */
+/* Ingrese */
 /* +++++++++++ */
 
 .boxForm {
@@ -349,7 +347,6 @@ header nav ul li ul {
     margin: 40px;
     border: double brown;
     position: relative;
-    left: 40rem;
     display: flex;
     flex-direction: column;
 }
@@ -386,17 +383,16 @@ header nav ul li ul {
 }
 
 
-/* contacto */
+/* Contacto */
 /* +++++++++++ */
 
 .formContacto {
     height: fit-content;
-    width: fit-content; 
+    width: fit-content;
     padding: 20px;
     margin: 40px;
     border: double brown;
     position: relative;
-    left: 40rem;
     display: flex;
     flex-direction: column;
 }
@@ -405,20 +401,18 @@ header nav ul li ul {
 /* carga */
 /* +++++++++++ */
 
-.formCarga {
-    height: fit-content;
-    width: fit-content; 
-    padding: 20px;
-    margin: 40px;
-    border: double brown;
-    position: relative;
-    left: 40rem;
-    display: flex;
-    flex-direction: column;
+
+/* Home */
+/* +++++++++++ */
+
+
+.textoMain {
+    border: #969a97;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
 }
 
-/* main */
-/* +++++++++++ */
 
 /* Bootstrap carrusel */
 /* +++++++++++ */
@@ -434,10 +428,6 @@ header nav ul li ul {
     transition: 0.3s ease-in-out left;
 }
 
-.caruMain {
-    z-index: -1;
-}
-
 
 /* Media queries */
 /* +++++++++++ */
@@ -445,27 +435,12 @@ header nav ul li ul {
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
 @media (min-width: 428px) {
-    
-    .formIngreso {
-        left: 0.2rem;
-    }
-
-    .formCarga {
-        left: 0.2rem;
-    }
-
-    .formContacto {
-        left: 0.2rem;
-    }
-
-    /* +++++++++++ */
 
     .boxUs {
         display: flex;
         display: inline-block;
         width: 100%;
     }
-
 
     .corredor{
         width: 300px;
@@ -476,7 +451,6 @@ header nav ul li ul {
         width: 105%;
     }
 
-    
     .textoAcerca {
         margin: 10px 0 10px 0;
     }
@@ -492,20 +466,6 @@ header nav ul li ul {
 
 /* utilice el tamaño de un iphone en Landscape para el width aquí */
 @media (min-width: 926px) {
-
-    .formIngreso {
-        left: 15rem;
-    }
-
-    .formCarga {
-        left: 12rem;
-    }
-
-    .formContacto {
-        left: 12rem;
-    }
-
-    /* +++++++++++ */
 
     .boxUs {
         display: flex;
@@ -557,20 +517,6 @@ header nav ul li ul {
 /* utilice el tamaño de un ipad en Landscape para el width aquí */
 @media (min-width: 1080px) {
 
-    .formIngreso {
-        left: 20rem;
-    }
-
-    .formCarga {
-        left: 20rem;
-    }
-
-    .formContacto {
-        left: 20rem;
-    }
-
-    /* +++++++++++ */
-
     .boxUs {
         width: 100%;
     }
@@ -602,17 +548,6 @@ header nav ul li ul {
 }
 
 @media (min-width: 1300px) {
-    .formIngreso {
-        left: 45rem;
-    }
-
-    .formCarga {
-        left: 35rem;
-    }
-
-    .formContacto {
-        left: 35rem;
-    }
 
     .boxUs {
         display: grid;
