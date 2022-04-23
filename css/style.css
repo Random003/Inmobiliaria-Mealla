@@ -100,6 +100,42 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
+/* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
+@media (max-width: 427px) {
+    #logoInmo {
+        height: 70px;
+        width: 100px;
+    }
+
+    .barraNav {
+        height: 60px;
+        width: 100%;
+    }
+
+    /*  Menu Hamburgesa */
+
+    #itemBarra {
+        background-color: #de8f61; 
+        margin: auto;
+        border-radius: 8px;
+    }
+
+    #itemBarra a {
+        box-sizing: border-box;
+        display: block;
+        background-color: #de8f61;
+    }
+
+    #hamNav label { 
+        display: inline-block;
+        background-color: #de8f61;
+        font-size: 2.5rem;
+    }
+
+    #itemBarra { display: none; }
+    #hamNav input:checked ~ #itemBarra { display: block; }
+}
+
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
 @media (min-width: 428px) {
     
@@ -227,6 +263,10 @@ header nav ul li ul {
 /* Propiedades */
 /* +++++++++++ */
 
+.newTexto {
+    margin: 15px;
+    text-align: justify;
+}
 
 .tituloProp {
     display: flex;
@@ -251,6 +291,7 @@ header nav ul li ul {
     margin: 1rem;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     background-color: #C1CFDA;
+    border-radius: 10px;
 }
 
 .propiedad h3 {
@@ -270,6 +311,7 @@ header nav ul li ul {
     height: 2.5rem;
     outline: none;
     padding: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 .propiedad a {
@@ -277,6 +319,12 @@ header nav ul li ul {
     color: black;
     text-transform: uppercase;
 }
+
+/* #alquiler {
+    border-radius: 20px;
+    padding: 10px;
+    object-fit: contain;
+} */
 
 
 /* Nosotros */
@@ -396,6 +444,17 @@ header nav ul li ul {
 /* carga */
 /* +++++++++++ */
 
+.formIngresoB {
+    height: fit-content;
+    width: fit-content; 
+    padding: 20px;
+    margin: 40px;
+    border: double brown;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
 
 /* Home */
 /* +++++++++++ */
@@ -427,6 +486,52 @@ header nav ul li ul {
 /* Media queries */
 /* +++++++++++ */
 
+
+/* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
+@media (max-width: 427px) {
+    .boxUs {
+        display: flex;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .corredor {
+        width: 300px;
+        height: 300px;
+    }
+
+    .boxUs {
+        width: 105%;
+    }
+
+    .textoAcerca {
+        margin: 10px 0 10px 0;
+    }
+  
+    /* +++++++++++ */
+    
+    .propiedad {
+        width: 400px;
+        overflow: hidden;
+    }
+
+    /* +++++++++++ */
+
+    .formContacto {
+        padding: 1.5px;
+    }
+
+    /* +++++++++++ */
+
+    .formIngreso {
+        left: 45px;
+    }  
+
+    .row {
+        width: fit-content;
+    }
+    
+}
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
 @media (min-width: 428px) {
@@ -472,7 +577,7 @@ header nav ul li ul {
         padding: 50px;
     }
 
-    .corredor{
+    .corredor {
         width: 100px;
         height: 100px;
         margin: auto;
