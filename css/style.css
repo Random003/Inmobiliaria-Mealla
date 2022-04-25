@@ -320,12 +320,6 @@ header nav ul li ul {
     text-transform: uppercase;
 }
 
-/* #alquiler {
-    border-radius: 20px;
-    padding: 10px;
-    object-fit: contain;
-} */
-
 
 /* Nosotros */
 /* +++++++++++ */
@@ -496,8 +490,8 @@ header nav ul li ul {
     }
 
     .corredor {
-        width: 300px;
-        height: 300px;
+        width: 250px;
+        height: 250px;
     }
 
     .boxUs {
@@ -519,6 +513,10 @@ header nav ul li ul {
 
     .formContacto {
         padding: 1.5px;
+    }
+
+    .imgBack {
+        display: none;
     }
 
     /* +++++++++++ */
@@ -560,6 +558,12 @@ header nav ul li ul {
     .propiedad {
         width: 400px;
         overflow: hidden;
+    }
+
+    /* +++++++++++ */
+
+    .imgBack {
+        display: none;
     }
 
 }
@@ -610,6 +614,12 @@ header nav ul li ul {
         margin: 1rem;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     }
+
+    /* +++++++++++ */
+
+    .imgBack {
+        display: none;
+    }
   
 }
 
@@ -642,6 +652,12 @@ header nav ul li ul {
         margin: 1rem;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     }
+
+    /* +++++++++++ */
+
+    .imgBack {
+        display: none;
+    }
   
 }
 
@@ -666,6 +682,34 @@ header nav ul li ul {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     }
 
+    .newTexto {
+        margin: 15px;
+        text-align: center;
+    }
+
+    .row1 {
+        display: flex;
+    }
+
+    .imgBack {
+        width: 650px;
+        height: 620px;
+        margin-right: 300px;
+        margin-top: 40px;
+        overflow: hidden;
+        display: inline-block;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+        border-radius: 20px;
+    }
+
+}
+
+@media (max-width: 1549px) {
+
+    .imgBack {
+        display: none;
+    }
+    
 }
 
 

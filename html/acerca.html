@@ -63,71 +63,59 @@
 
     <main>
 
-        <section class="boxUs">
-
-            <div class="corredor">
-                <img src="../images/corredor.jpg" alt="foto corredor">
+        <div class="accordion p-5" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   <strong>NUESTRO COMPROMISO CON USTED</strong> 
+                </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="textoCorr">
+                        Siempre contrate profesionales matriculados para tener un mejor servicio, seguridad en sus operaciones y el respaldo de la red mas grande de la provincia de profesionales. Nos encontramos matriculados en el Colegio de Corredores Públicos Inmobiliarios de la Provincia de Mendoza, si es que desea corroborar nuestro estado en el mismo por favor visite el sitio web del Colegio <a href="https://www.ccpim.com.ar/colegiados" target="_blank" class="ccpim">AQUÍ</a>.
+                    </p>
+                    <p class="textoCorr">
+                        Nos encontramos en la ciudad de Mendoza. Disponemos de diferentes sucursales en la provincia para poder atenderlo de la manera que se merece. Nuestras sucursales se encuentran en: Calle 9 de Julio 9176 de la Ciudad Capital de la Provincia. En calle Nicolás Avellaneda 176 de la Ciudad de Guaymallén. En calle Silvano Rodríguez 3197, también de la ciudad de Guaymallén. Acérquese a la sucursal mas cercana a su domicilio que le esperara una experiencia excepcional en la venta o locación de sus propiedades.
+                    </p>
+                </div>
+                </div>
             </div>
-
-            <article class="textoAcerca">
-                <h3>DONDE NOS ENCONTRAMOS</h3>
-                <p class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35146.00264232199!2d-68.87602866220699!3d-32.88329794057166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e1!3m2!1ses-419!2sar!4v1647211736716!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </p>
-            </article>
-
-            <!-- Menu desplegable con Bootstrap -->
-            <button type="button" class="btn btn-outline-dark">
-                <article class="textoAcerca">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="text-reset">
-                                        <h3>NUESTRO COMPROMISO CON USTED (Click para ampliar)</h3>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseOne" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <p class="textoCorr">
-                                        Siempre contrate profesionales matriculados para tener un mejor servicio, seguridad en sus operaciones y el respaldo de la red mas grande de la provincia de profesionales. Nos encontramos matriculados en el Colegio de Corredores Públicos Inmobiliarios de la Provincia de Mendoza, si es que desea corroborar nuestro estado en el mismo por favor visite el sitio web del Colegio <a href="https://www.ccpim.com.ar/colegiados" target="_blank" class="ccpim">AQUÍ</a>.
-                                    </p>
-                                    <P class="textoCorr">
-                                        Nos encontramos en la ciudad de Mendoza. Disponemos de diferentes sucursales en la provincia para poder atenderlo de la manera que se merece. Nuestras sucursales se encuentran en: Calle 9 de Julio 9176 de la Ciudad Capital de la Provincia. En calle Nicolás Avellaneda 176 de la Ciudad de Guaymallén. En calle Silvano Rodríguez 3197, también de la ciudad de Guaymallén. Acérquese a la sucursal mas cercana a su domicilio que le esperara una experiencia excepcional en la venta o locación de sus propiedades.
-                                    </P>
-                                </div>
-                            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                   <strong>ACERCA DE NOSOTROS</strong> 
+                </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p class="textoCorr">
+                        Somos una Inmobiliaria con 25 años de experiencia en el rubro con profesionales dedicados a servirle de la mejor manera en sus negocios y a darle el mejor asesoramiento. Nos especializamos en realizar trabajos de acercamiento entre partes para lograr la mejor concreción de las operaciones inmobiliarias. Nuestros servicios son en Ventas de propiedades inmuebles, Alquileres y Administraciones en propiedades inmuebles, ademas realizamos tasaciones de casas, departamentos, campos, terrenos y propiedades especiales. Nuestro staff esta a la espera de que se comunique con nosotros para poder brindarle la mejor experiencia tanto previo, durante y post realizar la operación inmobiliaria a la cual nos comprometemos. Desde ya muchas gracias por confiar en nosotros para sus operaciones inmobiliarias.
+                        </p>
+                        <div class="corredor rounded">
+                           <img src="../images/corredor.jpg" alt="foto corredor">
                         </div>
                     </div>
-                </article>
-            </button>
-            
-
-            <button type="button" class="btn btn-outline-dark">
-                <article class="textoAcerca">
-                    <div class="panel-group" id="accordion">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                <h4 class="panel-title">
-                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="text-reset">
-                                        <h3>ACERCA DE NOSOTROS (Click para ampliar)</h3>
-                                    </a>
-                                </h4>
-                            </div>
-                            <div id="collapseTwo" class="panel-collapse collapse in">
-                                <div class="panel-body">
-                                    <p class="textoCorr">
-                                        Somos una Inmobiliaria con 25 años de experiencia en el rubro con profesionales dedicados a servirle de la mejor manera en sus negocios y a darle el mejor asesoramiento. Nos especializamos en realizar trabajos de acercamiento entre partes para lograr la mejor concreción de las operaciones inmobiliarias. Nuestros servicios son en Ventas de propiedades inmuebles, Alquileres y Administraciones en propiedades inmuebles, ademas realizamos tasaciones de casas, departamentos, campos, terrenos y propiedades especiales. Nuestro staff esta a la espera de que se comunique con nosotros para poder brindarle la mejor experiencia tanto previo, durante y post realizar la operación inmobiliaria a la cual nos comprometemos. Desde ya muchas gracias por confiar en nosotros para sus operaciones inmobiliarias.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </article>
-            </button>
-
-        </section>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                   <strong>DONDE NOS ENCONTRAMOS</strong> 
+                </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p class="textoCorr">
+                        Calle 9 de Julio 9176 de la Ciudad Capital de la Provincia. En calle Nicolás Avellaneda 176 de la Ciudad de Guaymallén. En calle Silvano Rodríguez 3197 de la ciudad de Guaymallén.
+                    </p>
+                    <p class="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35146.00264232199!2d-68.87602866220699!3d-32.88329794057166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e1!3m2!1ses-419!2sar!4v1647211736716!5m2!1ses-419!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -146,9 +134,11 @@
     </footer>
 
     <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <!--  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
 </body>
 </html>
