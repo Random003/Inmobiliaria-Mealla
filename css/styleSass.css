@@ -1,0 +1,92 @@
+/* +++++++++++ */
+/* Reseteo del Documento */
+/* +++++++++++ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+/* modulizacion - partials */
+/* header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    nav {
+        display: flex;
+        ul {
+            display: flex;
+        }
+    }
+} */
+/* +++++++++++++++++> */
+/* HEADER */
+/* +++++++++++ */
+/* +++++++++++++++++> */
+/* MAIN */
+/* +++++++++++ */
+/* Home */
+/* +++++++++++ */
+main .carousel {
+  margin: 20px; }
+  main .carousel .carousel-inner .carousel-item {
+    -webkit-transition: 0.3s ease-in-out left;
+    -moz-transition: 0.3s ease-in-out left;
+    -o-transition: 0.3s ease-in-out left;
+    transition: 0.3s ease-in-out left; }
+
+main .textoMain {
+  border: #969a97;
+  padding: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none; }
+
+/* Nosotros */
+/* +++++++++++ */
+main .accordion .accordion-item .accordion-body .textoCorr {
+  text-align: justify;
+  font-weight: 600;
+  font-size: x-large; }
+  main .accordion .accordion-item .accordion-body .textoCorr .ccpim {
+    text-decoration: none;
+    color: crimson; }
+
+main .accordion .accordion-item .accordion-body .corredor {
+  display: flex;
+  padding-bottom: 20px; }
+
+main .accordion .accordion-item .accordion-body .mapa {
+  display: flex;
+  justify-content: center; }
+
+/* +++++++++++++++++> */
+/* FOOTER */
+/* +++++++++++ */
+#footer {
+  border-top: double grey;
+  padding-top: 1rem;
+  background-image: linear-gradient(to bottom, #daa485, white); }
+  #footer #arriba {
+    text-decoration: none;
+    color: crimson;
+    margin-left: 20px; }
+  #footer .social {
+    text-align: right;
+    padding: 20px;
+    margin-right: 5px; }
+    #footer .social .fa-phone {
+      color: #969a97;
+      padding-right: 10px; }
+    #footer .social .fa-envelope {
+      color: #969a97; }
+    #footer .social .fa-whatsapp {
+      color: #969a97;
+      padding-left: 10px; }
+  #footer .reservados {
+    text-align: center;
+    margin: 20px; }
+
+/* Media queries */
+/* +++++++++++ */

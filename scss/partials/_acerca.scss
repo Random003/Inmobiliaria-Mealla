@@ -1,0 +1,28 @@
+/* Nosotros */
+/* +++++++++++ */
+
+main {
+    .accordion {
+        .accordion-item {
+            .accordion-body {
+                .textoCorr {
+                    text-align: justify;
+                    font-weight: 600;
+                    font-size: x-large;
+                    .ccpim {
+                        text-decoration: none;
+                        color: crimson;
+                    }
+                }
+                .corredor {
+                    display: flex;
+                    padding-bottom: 20px;
+                }
+                .mapa {
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}

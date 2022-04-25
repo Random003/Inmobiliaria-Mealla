@@ -2,13 +2,13 @@
 /* Reseteo del Documento */
 /* +++++++++++ */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+} */
 
 
 
@@ -325,47 +325,47 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
-.boxUs {
+/* .boxUs {
     display: grid;
     grid-template-columns: 100px 100px;
     grid-template-columns: repeat(2, 50%);
     width: 95%;
     padding: 5rem;
-}
+} */
 
-.boxUs .textoAcerca h3 {
+/* .boxUs .textoAcerca h3 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 1rem;
     text-decoration: underline;
-}
+} */
 
-.textoCorr {
+/* .textoCorr {
     text-align: justify;
     font-weight: 600;
     font-size: x-large;
-}
+} */
 
-.ccpim {
+/* .ccpim {
     text-decoration: none;
     color: crimson;
-}
+} */
 
-.corredor {
+/* .corredor {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
     margin: 0 50px 30px 0;
-}
+} */
 
-.mapa {
+/* .mapa {
     display: flex;
     justify-content: center;
-}
+} */
 
-.textoAcerca {
+/* .textoAcerca {
     border: #969a97;
-}
+} */
 
 
 /* Ingrese */
@@ -454,27 +454,27 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
-.textoMain {
+/* .textoMain {
     border: #969a97;
     padding: 10px;
     text-align: center;
     text-transform: capitalize;
     text-decoration: none;
-}
+} */
 
 /* Bootstrap carrusel */
 /* +++++++++++ */
 
-.carousel {
+/* .carousel {
     margin: 20px;
-}
+} */
 
-.carousel-inner > .item {
+/* .carousel-inner > .item {
     -webkit-transition: 0.3s ease-in-out left;
     -moz-transition: 0.3s ease-in-out left;
     -o-transition: 0.3s ease-in-out left;
     transition: 0.3s ease-in-out left;
-}
+} */
 
 
 /* Media queries */
@@ -543,6 +543,7 @@ header nav ul li ul {
     .corredor{
         width: 300px;
         height: 300px;
+        margin: auto;
     }
 
     .boxUs {
@@ -568,6 +569,14 @@ header nav ul li ul {
 
 }
 
+@media (min-width: 809px) {
+    .corredor{
+        width: 350px;
+        height: 350px;
+        margin-left: 150px;
+    }    
+}
+
 /* utilice el tamaño de un iphone en Landscape para el width aquí */
 @media (min-width: 926px) {
 
@@ -581,12 +590,6 @@ header nav ul li ul {
         padding: 50px;
     }
 
-    .corredor {
-        width: 100px;
-        height: 100px;
-        margin: auto;
-    }
-
     .boxUs {
         width: 100%;
     }
@@ -595,12 +598,12 @@ header nav ul li ul {
         padding: 50px;
     }
 
-    .corredor{
+    /* .corredor{
         width: 500px;
         height: 500px;
-        margin: auto;
+        margin-left: 200px;
     }    
-
+ */
 
     /* +++++++++++ */
 
@@ -638,7 +641,7 @@ header nav ul li ul {
     .corredor{
         width: 500px;
         height: 500px;
-        margin: auto;
+        margin-left: 200px;
     }    
 
     /* +++++++++++ */
@@ -702,6 +705,10 @@ header nav ul li ul {
         border-radius: 20px;
     }
 
+    .corredor {
+        margin-left: 500px;
+    }
+
 }
 
 @media (max-width: 1549px) {
@@ -726,19 +733,19 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
-footer {
+/* #footer {
     border-top: double grey;
     padding-top: 1rem;
     background-image: linear-gradient(to bottom,#daa485, white); 
-}
+} */
 
-.social {
+/* .social {
     text-align: right;
     padding: 20px;
     margin-right: 5px;
-}
+} */
 
-.fa-phone {
+/* .fa-phone {
     color: #969a97;
     padding-right: 10px;
 }
@@ -750,18 +757,18 @@ footer {
 .fa-whatsapp {
     color: #969a97;
     padding-left: 10px;
-}
+} */
 
-.reservados {
+/* .reservados {
     text-align: center;
     margin: 20px;
-}
+} */
 
-#arriba {
+/* #arriba {
     text-decoration: none;
     color: crimson;
     margin-left: 20px;
-}
+} */
 
 
 /* Media queries */

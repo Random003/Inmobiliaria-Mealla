@@ -1,0 +1,23 @@
+/* Home */
+/* +++++++++++ */
+
+main {
+    .carousel {
+        margin: 20px;
+        .carousel-inner {
+            .carousel-item {
+                -webkit-transition: 0.3s ease-in-out left;
+                -moz-transition: 0.3s ease-in-out left;
+                -o-transition: 0.3s ease-in-out left;
+                transition: 0.3s ease-in-out left;
+            }
+        }
+    }
+    .textoMain {
+        border: #969a97;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: none;
+    }
+}

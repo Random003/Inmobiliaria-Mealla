@@ -1,0 +1,36 @@
+/* +++++++++++++++++> */
+/* FOOTER */
+/* +++++++++++ */
+
+#footer {
+    border-top: double grey;
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom,#daa485, white); 
+    #arriba {
+        text-decoration: none;
+        color: crimson;
+        margin-left: 20px;
+    }
+    .social {
+        text-align: right;
+        padding: 20px;
+        margin-right: 5px;
+        .fa-phone {
+            color: #969a97;
+            padding-right: 10px;
+        }
+        
+        .fa-envelope {
+            color: #969a97;
+        }
+        
+        .fa-whatsapp {
+            color: #969a97;
+            padding-left: 10px;
+        }
+    }
+    .reservados {
+        text-align: center;
+        margin: 20px;
+    }
+}
