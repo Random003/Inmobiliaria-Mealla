@@ -1,0 +1,48 @@
+/* carga */
+/* +++++++++++ */
+
+main {
+    .text-center {
+
+        .newTexto {
+            margin: 15px;
+            text-align: center;
+        }
+    }
+    .formIngresoB {
+        height: fit-content;
+        width: fit-content; 
+        padding: 20px;
+        margin: 40px;
+        border: double brown;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+
+        .textBox {
+            text-align: center;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+        }
+        .form-control {
+            width: 225px;
+            margin-bottom: 18px;
+        }
+        .imputForm {
+            height: 2.5rem;
+            padding: 1rem;
+            outline: none;
+            margin-bottom: 1rem;
+        }
+        div {
+            .botBot {
+                border: none;
+                text-transform: uppercase;
+                padding: 0.5rem 1rem;
+                border-radius: 5px;
+                margin: 10px;
+                
+            }
+        }
+    }
+}

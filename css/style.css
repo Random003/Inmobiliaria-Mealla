@@ -263,26 +263,26 @@ header nav ul li ul {
 /* Propiedades */
 /* +++++++++++ */
 
-.newTexto {
+/* .newTexto {
     margin: 15px;
     text-align: justify;
-}
+} */ /* ---- */
 
-.tituloProp {
+/* .tituloProp {
     display: flex;
     justify-content: center;
     font-size: 2.5rem;
     margin: 20px;
-}
+} */
 
-.contProp {
+/* .contProp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 1rem;
-}
+} */
 
-.propiedad {
+/* .propiedad {
     height: 650px;
     width: 650px;
     margin-bottom: 30px;
@@ -292,9 +292,9 @@ header nav ul li ul {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     background-color: #C1CFDA;
     border-radius: 10px;
-}
+} */
 
-.propiedad h3 {
+/* .propiedad h3 {
     margin: 10px;
     text-transform: uppercase;
     font-size: x-large;
@@ -312,13 +312,13 @@ header nav ul li ul {
     outline: none;
     padding: 0 10px 0 10px;
     border-radius: 10px;
-}
+} */
 
-.propiedad a {
+/* .propiedad a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
-}
+} */
 
 
 /* Nosotros */
@@ -372,11 +372,11 @@ header nav ul li ul {
 /* +++++++++++ */
 
 
-.boxForm {
+/* .boxForm {
     display: flex;
-}
+} */
 
-.formIngreso {
+/* .formIngreso {
     height: fit-content;
     width: fit-content; 
     padding: 20px;
@@ -385,45 +385,46 @@ header nav ul li ul {
     position: relative;
     display: flex;
     flex-direction: column;
-}
+} */
 
-.textBox {
+/* .textBox {
     text-align: center;
     margin-bottom: 1rem;
     text-transform: uppercase;
-}
+} */
 
-.imputForm {
+/* .imputForm {
     height: 2.5rem;
     padding: 1rem;
     outline: none;
     margin-bottom: 1rem;
-}
+} */
 
-.contBot {
+/* .contBot {
     display: flex;
     justify-content: space-around;
-}
+} */
 
-.botBot {
+/* .botBot {
     border: none;
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     border-radius: 5px;
     margin: 10px;
-}
 
-.form-control {
+} */ /* ----- */
+
+/* .form-control {
     width: 225px;
     margin-bottom: 18px;
-}
+} */
 
 
 /* Contacto */
 /* +++++++++++ */
 
 
-.formContacto {
+/* .formContacto {
     height: fit-content;
     width: fit-content;
     padding: 20px;
@@ -432,13 +433,13 @@ header nav ul li ul {
     position: relative;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 /* carga */
 /* +++++++++++ */
 
-.formIngresoB {
+/* .formIngresoB {
     height: fit-content;
     width: fit-content; 
     padding: 20px;
@@ -447,7 +448,7 @@ header nav ul li ul {
     position: relative;
     display: flex;
     flex-direction: column;
-}
+} */
 
 
 /* Home */
@@ -685,10 +686,10 @@ header nav ul li ul {
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     }
 
-    .newTexto {
+    /* .newTexto {
         margin: 15px;
         text-align: center;
-    }
+    } */
 
     .row1 {
         display: flex;
