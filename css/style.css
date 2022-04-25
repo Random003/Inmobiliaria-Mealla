@@ -17,21 +17,34 @@
 /* +++++++++++ */
 
 
-header {
-    display: flex;
-    top: 0;
-    left: 0;
+
+.logoInmo {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-
-#logoInmo {
-    justify-content: end;
-    height: 240px;
-    width: 350px;
+.barra {
+    background-image: linear-gradient(to bottom,#daa485, #e7cebe);
     box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    width: 100%;
+    margin: 0 20px 0 20px;
+    
 }
 
-.barraNav {
+.subMenu {
+    background-color: #d79671;
+    border-radius: 12px;
+}
+
+.busqueda {
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* .barraNav {
     display: flex;
     text-decoration: none;
     background-color: #de8f61;
@@ -45,55 +58,7 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 8px;
-}
-
-nav ul li a {
-    color: black;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: red;
-}
-
-.search {
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-    height: 30px;
-    width: 180px;
-    margin: 10px; 
-    padding: 10px;
-    border-radius: 15px;
-}
-
-.menuNav {
-    display: inline-block;
-    padding: 10px;
-    margin: 0 2rem 0 2rem;
-}
-
-header nav ul li {
-    position: relative;
-}
-
-header nav ul li:hover > ul {
-    display: flex;
-}
-
-header nav ul li ul {
-    position: absolute;
-    left: 1rem;
-    display: none;
-    flex-direction: column;
-    padding: 1rem;
-    height: 4.5rem;
-    width: 7rem;
-    background-color: #de8f61;
-    border-radius: 10px;
-}
-
-/* Menu Hamburgesa */
-
-#hamNav label, #hamburgesa { display: none; }
+} */
 
 
 /* Media queries */
@@ -102,146 +67,20 @@ header nav ul li ul {
 
 /* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
 @media (max-width: 427px) {
-    #logoInmo {
-        height: 70px;
-        width: 100px;
-    }
-
-    .barraNav {
-        height: 60px;
-        width: 100%;
-    }
-
-    /*  Menu Hamburgesa */
-
-    #itemBarra {
-        background-color: #de8f61; 
-        margin: auto;
-        border-radius: 8px;
-    }
-
-    #itemBarra a {
-        box-sizing: border-box;
-        display: block;
-        background-color: #de8f61;
-    }
-
-    #hamNav label { 
-        display: inline-block;
-        background-color: #de8f61;
-        font-size: 2.5rem;
-    }
-
-    #itemBarra { display: none; }
-    #hamNav input:checked ~ #itemBarra { display: block; }
+    
 }
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
 @media (min-width: 428px) {
     
-    #logoInmo {
-        height: 70px;
-        width: 100px;
-    }
-
-    .barraNav {
-        height: 60px;
-        width: 100%;
-    }
-
-    header nav ul li {
-        position: relative;
-    }
     
-    header nav ul li:hover > ul {
-        display: flex;
-    } 
-
-   /*  Menu Hamburgesa */
-
-    #itemBarra {
-        background-color: #de8f61; 
-        margin: auto;
-        border-radius: 8px;
-    }
-
-    #itemBarra a {
-        box-sizing: border-box;
-        display: block;
-        background-color: #de8f61;
-    }
-
-    #hamNav label { 
-        display: inline-block;
-        background-color: #de8f61;
-        font-size: 2.5rem;
-    }
-
-    #itemBarra { display: none; }
-    #hamNav input:checked ~ #itemBarra { display: block; }
 
 }
 
 /* utilice el tamaño de un iphone en Landscape y un ipad en Portrait para el width aquí */
 @media (min-width: 810px) {
 
-    header {
-        display: flex;
-        top: 0;
-        left: 0;
-    }
     
-    #logoInmo {
-        justify-content: end;
-        height: 120px;
-        width: 150px;
-        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
-    }
-
-    .barraNav {
-        height: 110px;
-        display: flex;
-        text-decoration: none;
-        background-color: #de8f61;
-        padding: 10px;
-        margin: 10px; 
-        width: 100%;
-        z-index: 100;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
-        text-transform: uppercase;
-        font-weight: 600;
-    }
-
-    header nav ul li ul {
-        position: absolute;
-        left: 1rem;
-        display: none;
-        flex-direction: column;
-        padding: 1rem;
-        height: 4.5rem;
-        width: 7rem; 
-        background-color: #de8f61;
-        border-radius: 10px; 
-        z-index: 700;
-    }
-
-    header nav ul li {
-        position: relative;
-    }
-    
-    header nav ul li:hover > ul {
-        display: flex;
-    }
-
-    /* menu hamburgesa */
-
-    #hamNav label, #hamburgesa { display: none; }
-
-    #itemBarra {
-        display: inline-block;
-    }
 
 }
 
