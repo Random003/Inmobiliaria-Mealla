@@ -17,7 +17,7 @@
 /* +++++++++++ */
 
 
-
+/* 
 .logoInmo {
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
@@ -40,7 +40,7 @@
 .busqueda {
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-}
+} */
 
 
 
@@ -63,26 +63,6 @@
 
 /* Media queries */
 /* +++++++++++ */
-
-
-/* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
-@media (max-width: 427px) {
-    
-}
-
-/* utilice el tamaño de un iphone en Portrait para el width aquí */
-@media (min-width: 428px) {
-    
-    
-
-}
-
-/* utilice el tamaño de un iphone en Landscape y un ipad en Portrait para el width aquí */
-@media (min-width: 810px) {
-
-    
-
-}
 
 
 

@@ -2,8 +2,39 @@
 /* HEADER */
 /* +++++++++++ */
 
+
 header {
-    
+    nav {
+        .barra {
+            background-image: linear-gradient(to bottom,#daa485, #e7cebe);
+            box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            width: 100%;
+            margin: 0 20px 0 20px;
+            a {
+                .logoInmo {
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                }
+            }
+            div {
+                ul {
+                    li {
+                        .subMenu {
+                            background-color: #d79671;
+                            border-radius: 12px;
+                        }
+                    }
+                }
+                form {
+                    .busqueda {
+                        border-radius: 8px;
+                        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                    }
+                }
+            }
+        }
+    }
 }
 
 
