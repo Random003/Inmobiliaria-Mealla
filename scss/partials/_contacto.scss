@@ -20,6 +20,12 @@ main {
             display: flex;
             flex-direction: column;
 
+            @media (max-width: 427px) {
+                padding: 1.5px;
+            }
+
+            
+
             .textBox {
                 text-align: center;
                 margin-bottom: 1rem;
@@ -49,7 +55,44 @@ main {
                 }
             }
         }
+        
+        @media (min-width: 1300px) {
+            display: flex;
+        }
 
+    }
+
+    .imgBack {
+        @media (max-width: 427px) {
+            display: none;
+        }
+
+        @media (min-width: 428px) {
+            display: none;
+        }
+
+        @media (min-width: 926px) {
+            display: none;
+        }
+
+        @media (min-width: 1080px) {
+            display: none;
+        }
+
+        @media (min-width: 1300px) {
+            width: 650px;
+            height: 620px;
+            margin-right: 300px;
+            margin-top: 40px;
+            overflow: hidden;
+            display: inline-block;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+        }
+
+        @media (max-width: 1549px) {
+            display: none;
+        }
     }
 
 }

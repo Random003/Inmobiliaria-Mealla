@@ -2,13 +2,18 @@
 /* FOOTER */
 /* +++++++++++ */
 
+/* variables en sas */
+$colorSocial: #969a97;
+$colorSecundario: crimson;
+
+
 #footer {
     border-top: double grey;
     padding-top: 1rem;
     background-image: linear-gradient(to bottom,#daa485, white); 
     #arriba {
         text-decoration: none;
-        color: crimson;
+        color: $colorSecundario;
         margin-left: 20px;
     }
     .social {
@@ -16,16 +21,16 @@
         padding: 20px;
         margin-right: 5px;
         .fa-phone {
-            color: #969a97;
+            color: $colorSocial;
             padding-right: 10px;
         }
         
         .fa-envelope {
-            color: #969a97;
+            color: $colorSocial;
         }
         
         .fa-whatsapp {
-            color: #969a97;
+            color: $colorSocial;
             padding-left: 10px;
         }
     }

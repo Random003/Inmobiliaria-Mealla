@@ -303,120 +303,120 @@
 
 /* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
 @media (max-width: 427px) {
-    .boxUs {
+    /* .boxUs {
         display: flex;
         display: inline-block;
         width: 100%;
-    }
+    } */
 
-    .corredor {
+    /* .corredor {
         width: 250px;
         height: 250px;
-    }
+    } */
 
-    .boxUs {
+    /* .boxUs {
         width: 105%;
-    }
+    } */
 
-    .textoAcerca {
+    /* .textoAcerca {
         margin: 10px 0 10px 0;
-    }
+    } */
   
     /* +++++++++++ */
     
-    .propiedad {
+    /* .propiedad {
         width: 400px;
         overflow: hidden;
-    }
+    } */
 
     /* +++++++++++ */
 
-    .formContacto {
+    /* .formContacto {
         padding: 1.5px;
-    }
+    } */
 
-    .imgBack {
+   /*  .imgBack {
         display: none;
-    }
+    } */
 
     /* +++++++++++ */
 
-    .formIngreso {
-        left: 50px;
-    }  
+    /* .formIngreso {
+        left: 40px;
+    }   */
 
-    .row {
+   /*  .row {
         width: fit-content;
-    }
+    } */
     
 }
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
 @media (min-width: 428px) {
 
-    .boxUs {
+    /* .boxUs {
         display: flex;
         display: inline-block;
         width: 100%;
-    }
+    } */
 
-    .corredor{
+    /* .corredor{
         width: 300px;
         height: 300px;
         margin: auto;
-    }
+    } */
 
-    .boxUs {
+    /* .boxUs {
         width: 105%;
-    }
+    } */
 
-    .textoAcerca {
+    /* .textoAcerca {
         margin: 10px 0 10px 0;
-    }
+    } */
   
     /* +++++++++++ */
     
-    .propiedad {
+    /* .propiedad {
         width: 400px;
         overflow: hidden;
-    }
+    } */
 
     /* +++++++++++ */
 
-    .imgBack {
+    /* .imgBack {
         display: none;
-    }
+    } */
 
 }
 
-@media (min-width: 809px) {
+/* @media (min-width: 809px) {
     .corredor{
         width: 350px;
         height: 350px;
         margin-left: 150px;
-    }    
-}
+    }   
+} */
 
 /* utilice el tamaño de un iphone en Landscape para el width aquí */
 @media (min-width: 926px) {
 
-    .boxUs {
+    /* .boxUs {
         display: flex;
         display: inline-block;
         width: 100%;
-    }
+    } */
 
-    .textoCorr {
+   /*  .textoCorr {
         padding: 50px;
-    }
+    } */
 
-    .boxUs {
+    /* .boxUs {
         width: 100%;
-    }
+    } */
 
-    .textoCorr {
+    /* .textoCorr {
         padding: 50px;
-    }
+    } */
 
     /* .corredor{
         width: 500px;
@@ -428,7 +428,7 @@
     /* +++++++++++ */
 
     
-    .propiedad {
+    /* .propiedad {
         height: 650px;
         width: 650px;
         margin-bottom: 30px;
@@ -436,13 +436,13 @@
         text-align: center;
         margin: 1rem;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    }
+    } */
 
     /* +++++++++++ */
 
-    .imgBack {
+    /* .imgBack {
         display: none;
-    }
+    } */
   
 }
 
@@ -450,23 +450,23 @@
 /* utilice el tamaño de un ipad en Landscape para el width aquí */
 @media (min-width: 1080px) {
 
-    .boxUs {
+    /* .boxUs {
         width: 100%;
-    }
+    } */
 
-    .textoCorr {
+    /* .textoCorr {
         padding: 50px;
-    }
+    } */
 
-    .corredor{
+    /* .corredor{
         width: 500px;
         height: 500px;
         margin-left: 200px;
-    }    
+    }   */  
 
     /* +++++++++++ */
 
-    .propiedad {
+    /* .propiedad {
         height: 650px;
         width: 650px;
         margin-bottom: 30px;
@@ -474,28 +474,28 @@
         text-align: center;
         margin: 1rem;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    }
+    } */
 
     /* +++++++++++ */
 
-    .imgBack {
+    /* .imgBack {
         display: none;
-    }
+    } */
   
 }
 
 
 @media (min-width: 1300px) {
 
-    .boxUs {
+    /* .boxUs {
         display: grid;
         grid-template-columns: 100px 100px;
         grid-template-columns: repeat(2, 50%);
         width: 95%;
         padding: 5rem;
-    }
+    } */
 
-    .propiedad {
+   /*  .propiedad {
         height: 650px;
         width: 650px;
         margin-bottom: 30px;
@@ -503,18 +503,18 @@
         text-align: center;
         margin: 1rem;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
-    }
+    } */
 
     /* .newTexto {
         margin: 15px;
         text-align: center;
     } */
 
-    .row1 {
+    /* .row1 {
         display: flex;
-    }
+    } */
 
-    .imgBack {
+    /* .imgBack {
         width: 650px;
         height: 620px;
         margin-right: 300px;
@@ -523,21 +523,21 @@
         display: inline-block;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
         border-radius: 20px;
-    }
+    } */
 
-    .corredor {
+   /*  .corredor {
         margin-left: 500px;
-    }
+    } */
 
 }
 
-@media (max-width: 1549px) {
+/* @media (max-width: 1549px) {
 
     .imgBack {
         display: none;
     }
 
-}
+} */
 
 
 

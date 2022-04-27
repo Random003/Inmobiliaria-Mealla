@@ -3,6 +3,11 @@
 /* +++++++++++ */
 
 
+/* variables en sas */
+$colorPrimario: #d79671;
+$shadowPrimario: 2px 2px 10px rgba(0, 0, 0, 0.5);
+
+
 header {
     nav {
         .barra {
@@ -14,14 +19,14 @@ header {
             a {
                 .logoInmo {
                     border-radius: 10px;
-                    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                    box-shadow: $shadowPrimario;
                 }
             }
             div {
                 ul {
                     li {
                         .subMenu {
-                            background-color: #d79671;
+                            background-color: $colorPrimario;
                             border-radius: 12px;
                         }
                     }
@@ -29,7 +34,7 @@ header {
                 form {
                     .busqueda {
                         border-radius: 8px;
-                        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+                        box-shadow: $shadowPrimario;
                     }
                 }
             }

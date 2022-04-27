@@ -11,6 +11,7 @@
 /* +++++++++++++++++> */
 /* HEADER */
 /* +++++++++++ */
+/* variables en sas */
 header nav .barra {
   background-image: linear-gradient(to bottom, #daa485, #e7cebe);
   box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.2);
@@ -53,6 +54,12 @@ main .accordion .accordion-item .accordion-body .textoCorr {
   text-align: justify;
   font-weight: 600;
   font-size: x-large; }
+  @media (min-width: 926px) {
+    main .accordion .accordion-item .accordion-body .textoCorr {
+      padding: 50px; } }
+  @media (min-width: 1080px) {
+    main .accordion .accordion-item .accordion-body .textoCorr {
+      padding: 50px; } }
   main .accordion .accordion-item .accordion-body .textoCorr .ccpim {
     text-decoration: none;
     color: crimson; }
@@ -60,6 +67,28 @@ main .accordion .accordion-item .accordion-body .textoCorr {
 main .accordion .accordion-item .accordion-body .corredor {
   display: flex;
   padding-bottom: 20px; }
+  @media (max-width: 427px) {
+    main .accordion .accordion-item .accordion-body .corredor {
+      width: 250px;
+      height: 250px; } }
+  @media (min-width: 428px) {
+    main .accordion .accordion-item .accordion-body .corredor {
+      width: 300px;
+      height: 300px;
+      margin: auto; } }
+  @media (min-width: 809px) {
+    main .accordion .accordion-item .accordion-body .corredor {
+      width: 350px;
+      height: 350px;
+      margin-left: 150px; } }
+  @media (min-width: 1080px) {
+    main .accordion .accordion-item .accordion-body .corredor {
+      width: 500px;
+      height: 500px;
+      margin-left: 200px; } }
+  @media (min-width: 1300px) {
+    main .accordion .accordion-item .accordion-body .corredor {
+      margin-left: 500px; } }
 
 main .accordion .accordion-item .accordion-body .mapa {
   display: flex;
@@ -114,6 +143,9 @@ main .row1 .formContacto {
   position: relative;
   display: flex;
   flex-direction: column; }
+  @media (max-width: 427px) {
+    main .row1 .formContacto {
+      padding: 1.5px; } }
   main .row1 .formContacto .textBox {
     text-align: center;
     margin-bottom: 1rem;
@@ -135,6 +167,41 @@ main .row1 .formContacto {
       padding: 0.5rem 1rem;
       border-radius: 5px;
       margin: 10px; }
+
+@media (min-width: 1300px) {
+  main .row1 {
+    display: flex; } }
+
+@media (max-width: 427px) {
+  main .imgBack {
+    display: none; } }
+
+@media (min-width: 428px) {
+  main .imgBack {
+    display: none; } }
+
+@media (min-width: 926px) {
+  main .imgBack {
+    display: none; } }
+
+@media (min-width: 1080px) {
+  main .imgBack {
+    display: none; } }
+
+@media (min-width: 1300px) {
+  main .imgBack {
+    width: 650px;
+    height: 620px;
+    margin-right: 300px;
+    margin-top: 40px;
+    overflow: hidden;
+    display: inline-block;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+    border-radius: 20px; } }
+
+@media (max-width: 1549px) {
+  main .imgBack {
+    display: none; } }
 
 /* Ingrese */
 /* +++++++++++ */
@@ -194,6 +261,41 @@ main .contProp {
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
     background-color: #C1CFDA;
     border-radius: 10px; }
+    @media (max-width: 427px) {
+      main .contProp .propiedad {
+        width: 400px;
+        overflow: hidden; } }
+    @media (min-width: 428px) {
+      main .contProp .propiedad {
+        width: 400px;
+        overflow: hidden; } }
+    @media (min-width: 926px) {
+      main .contProp .propiedad {
+        height: 650px;
+        width: 650px;
+        margin-bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); } }
+    @media (min-width: 1080px) {
+      main .contProp .propiedad {
+        height: 650px;
+        width: 650px;
+        margin-bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); } }
+    @media (min-width: 1300px) {
+      main .contProp .propiedad {
+        height: 650px;
+        width: 650px;
+        margin-bottom: 30px;
+        justify-content: center;
+        text-align: center;
+        margin: 1rem;
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7); } }
     main .contProp .propiedad h3 {
       margin: 10px;
       text-transform: uppercase;
@@ -212,6 +314,7 @@ main .contProp {
 /* +++++++++++++++++> */
 /* FOOTER */
 /* +++++++++++ */
+/* variables en sas */
 #footer {
   border-top: double grey;
   padding-top: 1rem;
@@ -235,6 +338,3 @@ main .contProp {
   #footer .reservados {
     text-align: center;
     margin: 20px; }
-
-/* Media queries */
-/* +++++++++++ */
