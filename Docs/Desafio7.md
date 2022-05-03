@@ -2,11 +2,11 @@
   <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" alt="Logo de coder"/>
 </p>
 
-# **Explicación requerida para el Desafío 7**
+# **Explicación requerida para el Desafío 7:**
 
 En cada una de las paginas del sitio posee:
 
-- <en>Titulo:</en>: Informativo de cada una de las secciones del sitio web para mejor ubicación de los usuarios y ademas para un mejor uso de los buscadores la pagina principal tiene una leyenda para los mismos. Se pueden visualizar en cada una de las pestañas del sitio web.
+- <en>Titulo:</en> Informativo de cada una de las secciones del sitio web para mejor ubicación de los usuarios y ademas para un mejor uso de los buscadores la pagina principal tiene una leyenda para los mismos. Se pueden visualizar en cada una de las pestañas del sitio web.
 
 - <en>Keyword:</en> Descriptivos del servicio que se presta en el sitio web y para un mejor posicionamiento del mismo en los diferentes buscadores, aun cuando muchos ya no utilizan este servicio. Los utilizados en este caso serian los siguientes: - Inmobiliaria, Mealla, Casa, Departamento, Local, Venta, Alquiler, Tasaciones, Mendoza, Argentina -
 
