@@ -54,10 +54,11 @@ main {
                         margin-left: 500px;
                     }
                 }
-                .mapa {
+                /* ahora funciona con mixin */
+                /* .mapa {
                     display: flex;
                     justify-content: center;
-                }
+                } */
             }
         }
     }

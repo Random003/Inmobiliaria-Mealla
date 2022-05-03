@@ -1,0 +1,13 @@
+/* Mixins */
+/* +++++++++++ */
+
+@mixin centrarFlex() {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.mapa {
+    @include centrarFlex();
+}

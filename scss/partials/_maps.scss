@@ -1,0 +1,17 @@
+/* Maps */
+/* +++++++++++ */
+
+$estilos: (
+    colorM: #000000,
+    colorS: #43434372,
+    text-decoration: underline,
+);
+
+.text__Main {
+    color:map-get($estilos, colorM);
+    text-decoration:map-get($estilos , text-decoration )
+}
+
+.text__Sub {
+    color:map-get($estilos, colorS)
+}

@@ -78,6 +78,10 @@
 /* +++++++++++ */
 
 
+/* 404 */
+/* +++++++++++ */
+
+
 
 /* Propiedades */
 /* +++++++++++ */
@@ -302,7 +306,7 @@
 
 
 /* utilice el tamaño de un teléfono en Portrait de tamaño chico para el width aquí */
-@media (max-width: 427px) {
+/* @media (max-width: 427px) { */
     /* .boxUs {
         display: flex;
         display: inline-block;
@@ -349,10 +353,10 @@
         width: fit-content;
     } */
     
-}
+/* } */
 
 /* utilice el tamaño de un iphone en Portrait para el width aquí */
-@media (min-width: 428px) {
+/* @media (min-width: 428px) { */
 
     /* .boxUs {
         display: flex;
@@ -387,7 +391,7 @@
         display: none;
     } */
 
-}
+/* } */
 
 /* @media (min-width: 809px) {
     .corredor{
@@ -398,7 +402,7 @@
 } */
 
 /* utilice el tamaño de un iphone en Landscape para el width aquí */
-@media (min-width: 926px) {
+/* @media (min-width: 926px) { */
 
     /* .boxUs {
         display: flex;
@@ -444,11 +448,11 @@
         display: none;
     } */
   
-}
+/* } */
 
 
 /* utilice el tamaño de un ipad en Landscape para el width aquí */
-@media (min-width: 1080px) {
+/* @media (min-width: 1080px) { */
 
     /* .boxUs {
         width: 100%;
@@ -482,10 +486,10 @@
         display: none;
     } */
   
-}
+/* } */
 
 
-@media (min-width: 1300px) {
+/* @media (min-width: 1300px) { */
 
     /* .boxUs {
         display: grid;
@@ -529,7 +533,7 @@
         margin-left: 500px;
     } */
 
-}
+/* } */
 
 /* @media (max-width: 1549px) {
 

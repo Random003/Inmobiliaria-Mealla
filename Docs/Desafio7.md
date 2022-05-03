@@ -2,9 +2,9 @@
   <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" alt="Logo de coder"/>
 </p>
 
-# **Curso Coderhouse - "Desarrollo Web"**
+# ** Explicación Desafío 7 **
 
-Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. Comisión 31525.-
+En cada una de las paginas le agregue
 
 <br>
 <br>
@@ -26,15 +26,6 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 <br>
 <br>
 
-
----
-
-# ** Explicación Desafío 7 **
-
-Para poder Leer la explicación solicitada en el desafío 7 dirigirse <a href="https://random003.github.io/Inmobiliaria-Mealla/">aquí</a>.
-
-<br>
-<br>
 
 ---
 

@@ -50,51 +50,52 @@ main .textoMain {
 
 /* Nosotros */
 /* +++++++++++ */
-main .accordion .accordion-item .accordion-body .textoCorr {
-  text-align: justify;
-  font-weight: 600;
-  font-size: x-large; }
-  @media (min-width: 926px) {
-    main .accordion .accordion-item .accordion-body .textoCorr {
-      padding: 50px; } }
-  @media (min-width: 1080px) {
-    main .accordion .accordion-item .accordion-body .textoCorr {
-      padding: 50px; } }
-  main .accordion .accordion-item .accordion-body .textoCorr .ccpim {
-    text-decoration: none;
-    color: crimson; }
+main .accordion .accordion-item .accordion-body {
+  /* ahora funciona con mixin */
+  /* .mapa {
+                    display: flex;
+                    justify-content: center;
+                } */ }
+  main .accordion .accordion-item .accordion-body .textoCorr {
+    text-align: justify;
+    font-weight: 600;
+    font-size: x-large; }
+    @media (min-width: 926px) {
+      main .accordion .accordion-item .accordion-body .textoCorr {
+        padding: 50px; } }
+    @media (min-width: 1080px) {
+      main .accordion .accordion-item .accordion-body .textoCorr {
+        padding: 50px; } }
+    main .accordion .accordion-item .accordion-body .textoCorr .ccpim {
+      text-decoration: none;
+      color: crimson; }
+  main .accordion .accordion-item .accordion-body .corredor {
+    display: flex;
+    padding-bottom: 20px; }
+    @media (max-width: 427px) {
+      main .accordion .accordion-item .accordion-body .corredor {
+        width: 250px;
+        height: 250px; } }
+    @media (min-width: 428px) {
+      main .accordion .accordion-item .accordion-body .corredor {
+        width: 300px;
+        height: 300px;
+        margin: auto; } }
+    @media (min-width: 809px) {
+      main .accordion .accordion-item .accordion-body .corredor {
+        width: 350px;
+        height: 350px;
+        margin-left: 150px; } }
+    @media (min-width: 1080px) {
+      main .accordion .accordion-item .accordion-body .corredor {
+        width: 500px;
+        height: 500px;
+        margin-left: 200px; } }
+    @media (min-width: 1300px) {
+      main .accordion .accordion-item .accordion-body .corredor {
+        margin-left: 500px; } }
 
-main .accordion .accordion-item .accordion-body .corredor {
-  display: flex;
-  padding-bottom: 20px; }
-  @media (max-width: 427px) {
-    main .accordion .accordion-item .accordion-body .corredor {
-      width: 250px;
-      height: 250px; } }
-  @media (min-width: 428px) {
-    main .accordion .accordion-item .accordion-body .corredor {
-      width: 300px;
-      height: 300px;
-      margin: auto; } }
-  @media (min-width: 809px) {
-    main .accordion .accordion-item .accordion-body .corredor {
-      width: 350px;
-      height: 350px;
-      margin-left: 150px; } }
-  @media (min-width: 1080px) {
-    main .accordion .accordion-item .accordion-body .corredor {
-      width: 500px;
-      height: 500px;
-      margin-left: 200px; } }
-  @media (min-width: 1300px) {
-    main .accordion .accordion-item .accordion-body .corredor {
-      margin-left: 500px; } }
-
-main .accordion .accordion-item .accordion-body .mapa {
-  display: flex;
-  justify-content: center; }
-
-/* carga */
+/* Carga */
 /* +++++++++++ */
 main .text-center .newTexto {
   margin: 15px;
@@ -121,12 +122,6 @@ main .formIngresoB {
     padding: 1rem;
     outline: none;
     margin-bottom: 1rem; }
-  main .formIngresoB div .botBot {
-    border: none;
-    text-transform: uppercase;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    margin: 10px; }
 
 /* Contacto */
 /* +++++++++++ */
@@ -161,12 +156,6 @@ main .row1 .formContacto {
   main .row1 .formContacto .contBot {
     display: flex;
     justify-content: space-around; }
-    main .row1 .formContacto .contBot .botBot {
-      border: none;
-      text-transform: uppercase;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      margin: 10px; }
 
 @media (min-width: 1300px) {
   main .row1 {
@@ -227,12 +216,6 @@ main .row .formIngreso {
     padding: 1rem;
     outline: none;
     margin-bottom: 1rem; }
-  main .row .formIngreso div .botBot {
-    border: none;
-    text-transform: uppercase;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    margin: 10px; }
 
 /* Propiedades */
 /* +++++++++++ */
@@ -310,6 +293,35 @@ main .contProp {
       outline: none;
       padding: 0 10px 0 10px;
       border-radius: 10px; }
+
+/* +++++++++++++++++> */
+/* Varios */
+/* +++++++++++ */
+/* 404 */
+/* +++++++++++ */
+/* Maps */
+/* +++++++++++ */
+.text__Main {
+  color: #000000;
+  text-decoration: underline; }
+
+.text__Sub {
+  color: #43434372; }
+
+/* Extend */
+/* +++++++++++ */
+.botBot, .botBot-enviar, .botBot-limpiar {
+  border: none;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin: 10px; }
+
+/* Mixins */
+/* +++++++++++ */
+.mapa {
+  display: flex;
+  justify-content: center; }
 
 /* +++++++++++++++++> */
 /* FOOTER */
