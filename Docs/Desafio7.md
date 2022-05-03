@@ -2,7 +2,7 @@
   <img src="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/images/coderLogo.png" alt="Logo de coder"/>
 </p>
 
-# ** Explicación Desafío 7 **
+# **Explicación Desafío 7**
 
 En cada una de las paginas le agregue 
 

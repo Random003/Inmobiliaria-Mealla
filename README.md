@@ -29,7 +29,7 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 
 ---
 
-# ** Explicación Desafío 7 **
+# **Explicación Desafío 7**
 
 Para poder Leer la explicación solicitada en el desafío 7 dirigirse <a href="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/Docs/Desafio7.md">aquí</a>.
 
