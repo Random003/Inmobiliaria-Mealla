@@ -32,7 +32,8 @@ Tema: Sitio web de Inmobiliaria para el curso de Desarrollo Web de Coderhouse. C
 
 - Para poder visualizar el presupuesto para el desafío ya comentado por favor dirigirse hacia esta <a href="https://github.com/Random003/Inmobiliaria-Mealla/blob/master/Docs/Presupuesto.pdf">dirección</a>  por favor.
 
----
+<br>
+<br>
 
 ## **Explicación Desafío 7:**
 
